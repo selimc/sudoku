@@ -1,0 +1,23 @@
+{
+  "name": "MKS-solo",
+  "version": "0.0.0",
+  "description": "### Objective: Build a fullstack MVP from scratch in 32 hours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selimc/MKS-solo.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/selimc/MKS-solo/issues"
+  },
+  "dependencies": {
+    "express": "~4.14.0",
+    "body-parser": "~1.15.2",
+    "cors": "~2.7.1",
+    "mongoose": "~4.5.9"
+  }
+}

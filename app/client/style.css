@@ -1,0 +1,78 @@
+
+div, h1, h3{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.board {
+  display: block;
+  margin: auto;
+  width: 458px;
+  height: 458px;
+  border: 5px solid black;
+}
+
+.box {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  border: 1px solid #333;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 48px;
+}
+
+.userNumbers:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.userNumbers:focus {
+  background-color: #ccc
+}
+
+.button, .diff {
+  display: inline-block;
+  padding: 5px;
+  height: 30px;
+  line-height: 30px;
+  background-color: lightblue;
+  margin: 10px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.original {
+  background-color: lightpink;
+}
+
+.noselect, .button, .diff {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none; 
+  -ms-user-select: none;   
+  user-select: none;                              
+}
+
+.diff {
+  padding-top: 0px;
+  display: inline-block;
+  width: 100px;
+}
+
+.rightBorder {
+  border-right-width: 5px;
+}
+
+.bottomBorder {
+  border-bottom-width: 5px;
+}
+
+.timer {
+  font-weight: bold;
+  font-size: 25px; 
+  margin-top:15px;
+}

@@ -1,0 +1,13 @@
+<div ng-click='getGame("easy")' class='diff'>Easy</div>
+<div ng-click='getGame("medium")' class='diff'>Medium</div>
+<div ng-click='getGame("hard")' class='diff'>Hard</div>
+
+<div class='board noselect'>
+	<div tabindex="0" ng-repeat="n in playBoard track by $index" 
+	class='box' ng-keydown="enterNumber($event)" ng-class="{original: createBoard(n), userNumbers: !createBoard(n), rightBorder: checkRight($index), bottomBorder: checkBottom($index)}">{{n}}</div>
+</div>
+
+<div class='timer'>{{timer}} </div>
+<div ng-click='checkBoard()' class='button'>Check Solution</div>
+<p>{{result}}</p>
+<div ng-click='solveBoard()' class='button'>SOLVE IT FOR ME</div>
